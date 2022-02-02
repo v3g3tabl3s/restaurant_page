@@ -1,0 +1,72 @@
+
+
+.menu-container{
+    background-image: url('../images/smoker-bg.jpg');
+    height: 100vh;
+    background: rgb(190, 174, 24);
+}
+
+
+.menu-info{
+    margin: 0 auto;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(175px, 1fr));
+    gap: 20px;
+    font-family: sans-serif;
+    height: 900px;
+    justify-items: center;
+    align-items: center;
+    
+    background: rgb(151, 147, 147);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1) ;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+}
+
+.menu-card{
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1) ;
+    height: fit-content;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.menu-card-img{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.menu-card h2{
+    font-weight: bolder;
+    background: rgb(177, 153, 118);
+}
+
+.menu-card p{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.menu-card-likes{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 0 0 10px 10px;
+}
+
+.menu-card-likes i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
